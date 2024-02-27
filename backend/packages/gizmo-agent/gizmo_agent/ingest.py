@@ -1,7 +1,7 @@
-import os
+naiimport os
 
 from agent_executor.upload import IngestRunnable
-from langchain.embeddings import OpenAIEmbeddings
+from langchain-openai import OpenAIEmbeddings
 from langchain.schema.runnable import ConfigurableField
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores.redis import Redis
