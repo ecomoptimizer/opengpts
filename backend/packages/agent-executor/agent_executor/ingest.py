@@ -8,8 +8,8 @@ know about server/uploading etc.
 """
 from typing import List
 
-from langchain.document_loaders import Blob
-from langchain.document_loaders.base import BaseBlobParser
+from langchain_community.document_loaders import Blob
+from langchain_community.document_loaders.base import BaseBlobParser
 from langchain.schema import Document
 from langchain.schema.vectorstore import VectorStore
 from langchain.text_splitter import TextSplitter
